@@ -6,8 +6,8 @@ Hi there! We're thrilled that you'd like to contribute to this project. Your hel
 
 The issue tracker is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests), but please respect the following restrictions:
 
-* Please **do not** use the issue tracker for personal support requests.
-* Please **do not** derail or troll issues. Keep the discussion on topic and respect the opinions of others.
+- Please **do not** use the issue tracker for personal support requests.
+- Please **do not** derail or troll issues. Keep the discussion on topic and respect the opinions of others.
 
 ## Bug reports
 
@@ -42,7 +42,7 @@ Example:
 
 ## Feature requests
 
-Feature requests are welcome, but take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince the project's developers of the merits of this feature. Please provide as much detail and context as possible.
+Feature requests are welcome, but take a moment to find out whether your idea fits with the scope and aims of the project. It's up to _you_ to make a strong case to convince the project's developers of the merits of this feature. Please provide as much detail and context as possible.
 
 ## Pull requests
 
@@ -58,12 +58,12 @@ Anyone can open a pull request on Distro Web. You do not need to work at Mradi K
 2. Configure and install the dependencies: `npm install`
 3. Create a new branch from develop `git checkout -b my-branch-name`
 4. Make your changes and commit them.
-6. Push your branch and open a pull request. Add a comment describing your proposed changes and request a review.
-7. Wait for CI tests to finish.
+5. Push your branch and open a pull request. Add a comment describing your proposed changes and request a review.
+6. Wait for CI tests to finish.
    - If the tests pass, you should see a status check telling you a successful run.
    - If the tests fail, review the logs and address any issues.
    - If the builds fail for any other reason (as they occasionally do), they may need to be manually restarted.
-8. If the test is successful, pat yourself on the back and wait for your pull request to be reviewed.
+7. If the test is successful, pat yourself on the back and wait for your pull request to be reviewed.
 
 Here are a few things you can do that will increase the likelihood of your pull request being accepted:
 
