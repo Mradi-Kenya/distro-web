@@ -9,15 +9,15 @@ module.exports = {
     {
       name: '@storybook/addon-styling',
       options: {
-        postCss: true
+        postCss: true,
+      },
     },
-  },
   ],
   framework: '@storybook/react',
   core: {
     builder: '@storybook/builder-webpack5',
   },
   typescript: {
-    reactDocgen: 'react-docgen-typescript-plugin'
+    reactDocgen: 'react-docgen-typescript-plugin',
   },
 };

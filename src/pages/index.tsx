@@ -10,15 +10,13 @@ const Home: NextPageWithLayout = () => {
       <h1 className="text-4xl font-bold text-blue-500">Home</h1>
     </section>
   );
-}
+};
 export default Home;
 
 Home.getLayout = (page) => {
-  return(
+  return (
     <PrimaryLayout>
-      <NavbarLayout>
-        {page}
-      </NavbarLayout>
+      <NavbarLayout>{page}</NavbarLayout>
     </PrimaryLayout>
   );
-}
+};
