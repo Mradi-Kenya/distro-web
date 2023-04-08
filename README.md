@@ -47,7 +47,7 @@ e.g. const \_variable = 'value';
 
 This project uses [Husky](https://typicode.github.io/husky) to run git hooks. The following hooks are configured:
 
-- pre-commit: Runs prettier and linting on staged files
+- pre-commit: Runs linting on staged files
 - pre-push: Runs a build to ensure the code compiles
 
 We also use [commitlint](https://commitlint.js.org/#/) to ensure that commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
