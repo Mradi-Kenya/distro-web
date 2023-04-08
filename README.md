@@ -40,8 +40,8 @@ To lint your code, run:
 npm run lint
 ```
 
-Note: Prefix variables with an underscore \_ if you have declared them but not used them.
-e.g. const \_variable = 'value';
+Note: Prefix variables with an underscore_ if you have declared them but not used them.
+e.g. const _variable = 'value';
 
 ## Git Hooks
 
