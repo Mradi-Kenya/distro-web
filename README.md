@@ -1,38 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DISTRO WEB
+A distribution web client that helps users in food distribution & medical camps
+
+## Pre-requisites
+Before getting started, make sure you have the following installed on your machine:
+- [Node.js](https://nodejs.org/en/download/)(v18.15.0 or higher)
+- [Npm](https://www.npmjs.com/get-npm)(v9.5.0 or higher)
+- [Typescript](https://www.typescriptlang.org/download)
 
 ## Getting Started
+To get started, clone the repository and install the dependencies:
 
-First, run the development server:
+```bash
+git clone git@github.com:Mradi-Kenya/distro-web.git
+cd distro-web
+npm install
+```
+
+To start the development server, run:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Formatting and Linting
+This project uses [Prettier](https://prettier.io/) for formatting and [ESLint](https://eslint.org/) for linting. To format your code, run:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run prettier
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+To lint your code, run:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm run lint
+```
+Note: Prefix variables with an underscore _ if you have declared them but not used them.
+e.g. const _variable = 'value';
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Git Hooks
+This project uses [Husky](https://typicode.github.io/husky) to run git hooks. The following hooks are configured:
+- pre-commit: Runs prettier and linting on staged files
+- pre-push: Runs a build to ensure the code compiles
 
-## Learn More
+We also use [commitlint](https://commitlint.js.org/#/) to ensure that commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
+Check out commitlint.config.js for the configuration.
 
-To learn more about Next.js, take a look at the following resources:
+## Storybook
+This project uses [Storybook](https://storybook.js.org/) to document and develop components in isolation. To start storybook, run:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run storybook
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Then visit http://localhost:6006 to view the storybook.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
