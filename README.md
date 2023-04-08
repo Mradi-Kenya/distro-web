@@ -26,6 +26,8 @@ To start the development server, run:
 npm run dev
 ```
 
+Then visit http://localhost:3000 to view the app.
+
 ## Formatting and Linting
 
 This project uses [Prettier](https://prettier.io/) for formatting and [ESLint](https://eslint.org/) for linting. To format your code, run:
@@ -51,7 +53,7 @@ This project uses [Husky](https://typicode.github.io/husky) to run git hooks. Th
 - pre-push: Runs a build to ensure the code compiles
 
 We also use [commitlint](https://commitlint.js.org/#/) to ensure that commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
-Check out commitlint.config.js for the configuration.
+Check out `commitlint.config.js` for the configuration.
 
 ## Storybook
 
