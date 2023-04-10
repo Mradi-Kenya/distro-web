@@ -13,6 +13,11 @@ module.exports = {
       fontFamily: {
         'open-sans': ['Open Sans', 'sans-serif'],
       },
+      colors: {
+        'primary': '#5CC2F2',
+        'secondary': '#191AA9',
+        'tertiary': '#C1EAF2'
+      }
     },
   },
   plugins: [],

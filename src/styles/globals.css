@@ -6,4 +6,7 @@
     scroll-behavior: smooth;
     @apply font-open-sans;
   }
+  body {
+    @apply bg-gray-100;
+  }
 }
