@@ -7,6 +7,6 @@
     @apply font-open-sans;
   }
   body {
-    @apply bg-gray-100;
+    @apply bg-white
   }
 }
